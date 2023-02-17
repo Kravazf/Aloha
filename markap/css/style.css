@@ -197,7 +197,7 @@ h4 {
 .btn4 {
     margin: 52px 0 0 0;
     font-size: 20px;
-    line-height: calc(28.6/20);
+    line-height: calc(28.8/20);
     text-align: center;
     width: 128px;
     min-height: 50px;
@@ -209,3 +209,55 @@ h4 {
     padding: 9px 5px 0 0; 
 }
 
+#footer {
+    margin: 0 auto;
+    max-width: 1440px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: calc(28.8/18);
+    padding: 173px 0 100px 0;
+    overflow: hidden;
+}
+
+.left-footer {
+    padding: 0;
+    margin-right: -4px;
+    max-width: 720px;
+    vertical-align: top;
+    float: left;
+}
+
+.left-footer p:nth-child(2) {
+    margin: -19px 0 0 0;
+}
+
+.left-footer > img {
+    margin: 81px 0 0 0;
+}
+
+.footer-nav {
+    padding: 0;
+    max-width: 720px;
+    float: right;   
+}
+
+.menu2 {
+    margin: 0 auto;
+    list-style: none;
+    vertical-align: top;
+    text-align: left;
+    display: inline-block;
+    width: auto;
+}
+
+.footer-nav ul:nth-child(3) {
+    padding: 17px 0 0 174px;
+}
+
+.footer-nav ul:nth-child(2) {
+    padding: 17px 0 0 174px;
+}
+
+.footer-nav ul:nth-child(1) {
+    padding: 17px 0 0 0;
+}
